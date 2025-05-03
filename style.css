@@ -127,7 +127,7 @@
 
 @media (max-width: 768px) {
   header h1 {
-    font-size: 1rem;                           /* Reduz título */
+    font-size: 0.5rem;                           /* Reduz título */
   }
 
   header p {
@@ -150,12 +150,12 @@
   }
 
   .poema {
-    padding: 1.5rem;                           /* Reduz espaço interno */
+    padding: 0.2rem;                           /* Reduz espaço interno */
     margin: 1rem;                              /* Reduz margem */
   }
 
   .poema h2 {
-    font-size: 1.5rem;                         /* Reduz tamanho do título */
+    font-size: 0.3rem;                         /* Reduz tamanho do título */
   }
 
   footer {

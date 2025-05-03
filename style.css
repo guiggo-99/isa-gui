@@ -124,42 +124,42 @@
     background-color: #fff;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   }
-  @media (max-width: 768px) {
-    header h1 {
-      font-size: 1rem;
-    }
-  
-    header p {
-      font-size: 1rem;
-    }
-  
-    #relacionamento-tempo {
-      font-size: 1.3rem;
-    }
-  
-    .container {
-      border-width: 6px;
-      margin: 1rem;
-    }
-  
-    .galeria {
-      grid-template-columns: repeat(1, 1fr); /* 2 colunas no celular */
-      gap: 1rem;
-      padding: 0 1rem;
-    }
-  
-    .poema {
-      padding: 1.5rem;
-      margin: 1rem;
-    }
-  
-    .poema h2 {
-      font-size: 1.5rem;
-    }
-  
-    footer {
-      font-size: 0.9rem;
-      padding: 1rem;
-    }
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;                           /* Reduz título */
   }
-  
+
+  header p {
+    font-size: 1rem;                           /* Reduz subtítulo */
+  }
+
+  #relacionamento-tempo {
+    font-size: 1.3rem;                         /* Reduz tamanho do contador */
+  }
+
+  .container {
+    border-width: 6px;                         /* Borda mais fina */
+    margin: 1rem;                              /* Margem menor */
+  }
+
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);     /* 2 colunas em celulares */
+    gap: 1rem;                                 /* Espaço menor */
+    padding: 0 1rem;                           /* Menor padding lateral */
+  }
+
+  .poema {
+    padding: 1.5rem;                           /* Reduz espaço interno */
+    margin: 1rem;                              /* Reduz margem */
+  }
+
+  .poema h2 {
+    font-size: 1.5rem;                         /* Reduz tamanho do título */
+  }
+
+  footer {
+    font-size: 0.9rem;                         /* Texto menor no rodapé */
+    padding: 1rem;                             /* Espaço interno menor */
+  }
+}
